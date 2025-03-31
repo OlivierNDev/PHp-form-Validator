@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  color: rgb(24, 24, 24);
+}
+
+header,
+footer {
+  background-color: burlywood;
+  padding: 5px 5px;
+  color: rgb(16, 16, 107);
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  text-align: right;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-stretch: expanded;
+}
+
+.tagline {
+  text-align: right;
+  font-size: 1rem;
+  margin-top: 3px;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  padding: 10px 0;
+} 
+/* classes for the header element and its contents */
+
+/* css classes for smaller header on scroll */
+
+.header--sticky {
+  padding: 10px 0;
+  background: white;
+}
+/* .header--sticky h1 a {
+  height: 23px;
+} */
+
+/* styling for form */
+
+.form__panel {
+  margin: 1em auto;
+  background-color: #eeeeee;
+  width: 70%;
+  padding: 0.75em;
+}
+.form__heading {
+  background-color: #9e9e9e;
+  color: white;
+  margin: 0 auto;
+  width: 90%;
+  padding: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.form__row {
+  margin-top: 0.5em;
+}
+.form__box {
+  background-color: #bdbdbd;
+  padding: 0.5em;
+  margin-top: 9px;
+  text-align: center;
+}
+.form__input {
+  font-size: 16px;
+  height: 24px;
+  padding: 3px;
+}
+.form__select {
+  height: 30px;
+}
+
+.form__input--large {
+  width: 95%;
+}
+.form__input--medium {
+  width: 40%;
+}
+.form__input--small {
+  width: 20%;
+}
+
+.form__btn {
+  border: none;
+  border-radius: 3px;
+  height: 32px;
+  color: black;
+  font-size: 14px;
+  background: #ef6c00;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.form__btn:hover {
+  background: #ff9800;
+  text-decoration: none;
+}
+
+/* styling for process results page */
+
+.results {
+  width: 70%;
+  margin: 100px auto;
+}
+
+.results__caption {
+  font-weight: bold;
+  font-size: 110%;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px #616161 solid;
+}
+.results__label {
+  text-align: right;
+  font-weight: bold;
+  width: 20%;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+footer {
+
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  padding: 10px 0;
+
+}
